@@ -48,7 +48,7 @@ for rodada in range(1, total_tentativas +1):
         break
     else:
         if(chute_maior):
-            print("Você errou, seu chute foi maior que o número secreto!")
+            print("Você errou, seu chute foi maior que o número secreto!!")
         elif(chute_menor):
             print("Você errou, seu chute foi menor que o número secreto!")
         chute_errado = abs(numero_secreto - chute)
